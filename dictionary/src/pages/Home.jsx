@@ -44,7 +44,7 @@ function Home() {
       {isOpen && (
         <ul className="bg-[#B6B6B6]  rounded-b-lg px-2 py-2  flex gap-2 flex-col  ">
           {searchResults.map((data, idx) => (
-            <SearchList key={idx} data={data} />
+            <SearchList key={idx} data={data} id={idx}/>
           ))}
         </ul>
       )}

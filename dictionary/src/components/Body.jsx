@@ -1,8 +1,12 @@
-const Body = ({ meaning }) => {
+/* eslint-disable react/prop-types */
+const Body = () => {
+   
   return (
     <div>
       <h1>Definitions</h1>
-      <p>jhgjfh</p>
+      <p>
+
+      </p>
       <div className="grid grid-cols-2">
         <div>
           <h1>SYNONYMS</h1>
