@@ -8,6 +8,8 @@ const App = () => {
   <Routes>
     <Route path='/' element={<Home />} />
     <Route path='/word/:word/id/:id' element={<WordInfo />} />
+    <Route path='*' element={<h1>404 PAGE NOT FOUND</h1>} />
+
   </Routes>
     </>
   )
