@@ -8,7 +8,10 @@ function SearchList({ data }) {
   };
   return (
     <div>
-      <li onClick={() =>handleClick(data.word)} className="bg-gray-200 px-2 py-2 rounded-md">
+      <li
+        onClick={() => handleClick(data.word)}
+        className="bg-gray-200 px-2 py-2 rounded-md"
+      >
         {data.word}
       </li>
     </div>
